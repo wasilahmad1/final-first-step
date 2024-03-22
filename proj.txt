@@ -22,3 +22,7 @@ Ready for Version Control: Once the repository is initialized, you can start add
 11.git commit -m"message"(to commit)
 12.git remote add origin URL(to tell where the file is to be pushed in github )
 13.git push --set-upstream origin main(to push the file in github)
+
+making some changes in the file and THEN 1.staging 
+                                         2.commit
+                                         3.push
