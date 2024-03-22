@@ -38,3 +38,11 @@ SECOND STEP(creating branch and Managing branch)
     making some changes in the the feature branch THEN 1.staging 
                                                        2.commit
                                                        3.push
+
+    MERGING THE BRANCH WITH MAIN
+    1.git checkout main
+    2.git merge feature-branch
+      
+      merging branch with main and THEN 1.staging 
+                                        2.commit
+                                        3.push
