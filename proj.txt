@@ -1,0 +1,24 @@
+FIRST STEP
+
+1.ls(to check  the current state)
+2.cd Desktop(to get into desktop)
+3.mkdir foldername(to make a folder )
+4.cd foldername(to get into the folder)
+5.git init 
+(The git init command is used to initialize a new Git repository in a directory. When you run git init in a folder, Git creates a new repository in that directory. This repository will store all the version history, branches, and other Git-related information for the files in that directory and its subdirectories.
+
+Here's a breakdown of what git init does:
+
+Initialize Repository: It creates a new subdirectory named .git in the current working directory. This directory contains all the necessary files and directories that Git needs to manage the repository.
+
+Set Up Configuration: Git initializes various configuration files within the .git directory. These files store information about the repository, such as user settings, remote repository URLs, and other configuration options.
+
+Ready for Version Control: Once the repository is initialized, you can start adding files to it and tracking changes. Git will start monitoring the files in the directory and its subdirectories for changes.)
+6.touch filename.txt(to create a new file )
+7.edit the file in text editor
+8.git add .filename.txt(It is called staging )
+9.git config --global user.name"      "
+10.git conifg --global user.email wasil.ahmad786@gmail.command
+11.git commit -m"message"(to commit)
+12.git remote add origin URL(to tell where the file is to be pushed in github )
+13.git push --set-upstream origin main(to push the file in github)
