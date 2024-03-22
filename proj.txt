@@ -27,22 +27,3 @@ making some changes in the file and THEN 1.staging
                                          2.commit
                                          3.push
                                          
-SECOND STEP(creating branch and Managing branch)
-1.git branch feature-branch(for creating a branch named feature-branch)
-2.git checkout name (for navagation between main and branches)
-3.git checkout feature-branch 
-  git add .filename.txt(staging)
-  git commit -m"message"(commit)
-  git push (for pushing the file in github )
-
-    making some changes in the the feature branch THEN 1.staging 
-                                                       2.commit
-                                                       3.push
-
-    MERGING THE BRANCH WITH MAIN
-    1.git checkout main
-    2.git merge feature-branch
-      
-      merging branch with main and THEN 1.staging 
-                                        2.commit
-                                        3.push
